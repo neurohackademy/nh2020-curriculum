@@ -147,3 +147,35 @@ just the `numpy` library:
     python_requires='>=3.6',
     install_requires=["numpy"]
 
+
+## Before we move on
+
+At this point, our project is starting to take shape. This is a good time
+to stop and create a GitHub repository for the project, linking it up with
+a local git repo.
+
+On GitHub, we create a new emptry repository, which we call `geometry`, we
+clone this empty repository into our machine and start adding things into it.
+
+When we are done, our file system should look like this:
+
+| geometry/
+| ├── LICENSE
+| ├── README.md
+| ├── geometry
+| │   ├── __init__.py
+| │   ├── __pycache__
+| │   │   ├── __init__.cpython-37.pyc
+| │   │   └── circle.cpython-37.pyc
+| │   └── circle.py
+| └── setup.py
+
+The only file we haven't seen before  is the LICENSE file. We can copy over the
+MIT license text from the [OSI website](https://opensource.org/licenses/MIT),
+adjusting year and copyright.
+
+We can add all these files (maybe we also need a .gitignore?) and then push
+this into our repository on GitHub. Hooray!! 🎉 We are ready to share with others!
+
+But before we throw a party, let's do a bit more software engineering, to make
+sure that our software really does what we intend for it to do.
