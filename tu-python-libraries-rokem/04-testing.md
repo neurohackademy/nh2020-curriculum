@@ -89,3 +89,4 @@ us check changes we make, every time we make them.
 With that, let's commit these changes and push them to our repository. Next,
 we'll see how we can have GitHub run our tests for us with every change to the
 code and alert us to failures as they arise.
+

@@ -41,14 +41,30 @@ A summer institute in neuroimaging and data science
 
 ### Data-intensive neuroscience
 
-* The era of brain observatories
-    - Data-intensive methods
-    - Team science
-    - Open-source software
+#### The era of brain observatories
+
+  - Data-intensive methods
+  - Team science
+  - Open-source software
+
+---
+
+### Python
+
+Neuroimaging in Python
+
+Scipy / Pydata
+
+Python in industry
 
 ---
 
 ### The plan
+
+- Tutorials + lectures
+- Friday:
+
+
 
 
 ---
@@ -62,5 +78,9 @@ A summer institute in neuroimaging and data science
 
 ---
 ### Git/GitHub
+
+---
+### Gather town
+
 
 
