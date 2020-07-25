@@ -39,9 +39,9 @@ A summer institute in neuroimaging and data science
 
 ---
 
-### Data-intensive neuroscience
+### The era of brain observatories
 
-#### The era of brain observatories
+Large-scale open datasets
 
   - Data-intensive methods
   - Team science
@@ -58,17 +58,56 @@ Scipy / Pydata
 Python in industry
 
 ---
+### IEEE Spectrum PL ranking 2020
 
-### The plan
-
-- Tutorials + lectures
-- Friday:
-
-
-
+![height:400px](img/ieee-spectrum.jpeg)
 
 ---
+### Scientific python ecosystem
+
+![height:400px](img/scipy-ecosystem.png)
+
+(From Jake Vanderplas' PyCon talk, 2017)
+
+---
+### Python in neuroimaging
+
+![height:400px](img/varoquaux1.png)
+
+
+(Poldrack, Gorgolewski & Varoquaux, 2019; updated in https://twitter.com/GaelVaroquaux/status/1263413593615273986)
+
+---
+### Python in neuroimaging
+
+![height:400px](img/varoquaux2.png)
+
+
+(Poldrack, Gorgolewski & Varoquaux, 2019; updated in https://twitter.com/GaelVaroquaux/status/1263413593615273986)
+
+---
+### Python in neuroimaging
+
+![height:400px](img/varoquaux3.png)
+
+
+(Poldrack, Gorgolewski & Varoquaux, 2019; updated in https://twitter.com/GaelVaroquaux/status/1263413593615273986)
+
+---
+### The plan
+
+- Mon - Thu: Tutorials, lectures
+- Friday: Hackathon
+
+---
+### Tutorials
+
+---
+
 ### ADSI
+
+---
+### Hackathon?
 
 ---
 ### Slack
