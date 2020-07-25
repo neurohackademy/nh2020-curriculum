@@ -140,7 +140,8 @@ https://neurohackademy.org/neurohack_year/2020/
 
 - #project-pitches channel
 - Projects doc
-- What makes a good project?
+- What makes a good project
+- Convene a BOF! #bof channel
 
 ---
 
