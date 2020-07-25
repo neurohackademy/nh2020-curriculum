@@ -114,6 +114,20 @@ But also:
 - A space to safely experiment with team science
 
 ---
+### Wait, isn't this neuromatch academy?
+
+- Focus on _human neuroscience_
+- Focus on technical and methodological issues
+- Focus on hacking
+
+---
+### Who are you?
+
+- Some experience with neuroscience
+- Some experience with programming
+- Imposter syndrome disclaimer
+
+---
 ### The plan
 
 ![height:600px](img/schedule.png)
@@ -126,14 +140,16 @@ https://neurohackademy.org/neurohack_year/2020/
 
 - #project-pitches channel
 - Projects doc
-- Imposter syndrome disclaimer
+- What makes a good project?
 
 ---
 
 ### Getting help
 
-- Slack: make your own channels!
+- Q&A durng each session
+- Dedicated session channels
 - Neurostars: https://neurostars.org/c/neurohackademy/
+- Take charge! Self-organize!
 
 ---
 
@@ -148,6 +164,7 @@ http://hub.neurohackademy.org
 - Let's get together!
 - Ice-breaker today at 10:30 (Gather town)
 - Jitsi
+- Find your BoFs!
 
 ---
 ### The team
