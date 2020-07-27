@@ -147,7 +147,7 @@ https://neurohackademy.org/neurohack_year/2020/
 
 ### Getting help
 
-- Q&A durng each session
+- Q&A during each session
 - Dedicated session channels
 - Neurostars: https://neurostars.org/c/neurohackademy/
 - Take charge! Self-organize!
@@ -180,4 +180,9 @@ http://hub.neurohackademy.org
 ---
 # Thank you!
 
+Particulary, funding from:
+- National Institute for Mental Health
+- NSF
+- The University of Washington eScience Institute
+- INCF (Neurostars)
 
