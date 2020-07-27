@@ -8,8 +8,8 @@ A collection of notebooks demonstrating plotting with matplotlib.
 
 The greatest part of matplotlib and seaborn are their galleries:
 
-* https://matplotlib.org/3.1.0/gallery/index.html
-* https://seaborn.pydata.org/examples/index.html
+* https://matplotlib.org/gallery
+* https://seaborn.pydata.org/examples
 
 If you take nothing else from this session, please know that there are amazing examples that you can copy and paste and run for yourself.
 
