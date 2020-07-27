@@ -1,0 +1,17 @@
+version: '3'
+services:
+   neurohackademy2020:
+      container_name: neurohackademy2020
+      image: nben/neurohackademy2020:latest
+      ports:
+         - "8888:8888"
+      environment:
+         - HCP_AUTO_RELEASE="$HCP_AUTO_RELEASE"
+         - HCP_AUTO_DATABASE="$HCP_AUTO_DATABASE"
+         - HCP_CREDENTIALS="$HCP_CREDENTIALS"
+         - HCP_AUTO_DOWNLOAD="$HCP_AUTO_DOWNLOAD"
+         - HCP_SUBJECTS_DIR="/data/hcp/subjects"
+         - SUBJECTS_DIR="/data/freesurfer_subjects"
+         - NPYTHY_DATA_CACHE_ROOT="/data/cache"
+      volumes:
+         - "$PWD:/home/jovyan/work"
