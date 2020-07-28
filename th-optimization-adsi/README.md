@@ -1,8 +1,11 @@
 # Optimization Models in Machine Learning: Introduction and Examples
 
-This tutorial illustrates how many popular machine learning models can be formulated and solved through the lens of optimization. Through a combination of slides and exercises, we present intuition behind gradient descent, linear and logistic regression, regularization, and outlier detection.
- 
-[Algorithmic Foundations of Data Science Institute (ADSI)](http://ads-institute.uw.edu/)
+This tutorial illustrates how many popular machine learning models can be formulated and solved through the lens of optimization.
+Through a combination of slides and exercises, we present intuition behind gradient descent, linear and logistic regression, regularization, and outlier detection.
+
+Prepared and presented by Sasha Aravkin, Maryam Fazel, Kelsey Maass, and Prasanna Raut.
+Sponsored by the [Algorithmic Foundations of Data Science Institute (ADSI)](http://ads-institute.uw.edu/).
+We acknowledge the support of NSF via the awards TRIPODS+X 1839291 and TRIPODS 1740551.
 
 Notebooks:
 * [Part 1 - Iterative Methods](notebooks/Part1-IterativeMethods.ipynb): Introduces gradient descent and stochastic gradient descent
