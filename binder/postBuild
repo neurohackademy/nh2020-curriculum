@@ -17,6 +17,8 @@ jupyter labextension install --dev-build=False --minimize=True \
 # Enable use of a /voila path like /lab and /tree
 jupyter serverextension enable --sys-prefix voila
 
+git config --global user.name "Neuro Hacker"
+git config --global user.email neurohack@nosuchthing.com
 
 mkdir data && \
  mkdir data/openneuro && \
