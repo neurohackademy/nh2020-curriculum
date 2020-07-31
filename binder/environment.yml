@@ -1,0 +1,73 @@
+name: nh
+channels:
+  - conda-forge
+  - plotly
+dependencies:
+  # conda packages for NeuroHackademy
+  - git-annex
+  - graphviz
+  - plotly
+  # -------------------------------------------------------------------------
+
+  # Base packages otherwise pinned in repo2docker, by adding them here we get
+  # more recent versions such as JupyterLab 2.
+  # ref: https://github.com/jupyter/repo2docker/blob/master/repo2docker/buildpacks/conda/environment.yml
+  - python=3.7
+  - ipywidgets
+  - jupyterhub-singleuser
+  - jupyterlab
+  - nbconvert
+  - nbresuse
+  - notebook
+
+  - pip
+  - pip:
+    # pip packages for NeuroHackademy
+    - cython
+    - dask[complete]
+    - datalad
+    - nibabel
+    - indexed-gzip
+    - nilearn
+    - transforms3d
+    - rise
+    - jupytext[myst]
+    - myst-nb
+    - numba
+    - pandas
+    - awscli
+    - s3fs
+    - gcsfs
+    - line_profiler
+    - memory_profiler
+    - graphviz
+    - matplotlib
+    - mne
+    - numpy
+    - scipy
+    - sklearn
+    - neuropythy
+    - ipyvolume==0.6.0a6
+    - pytest
+    - dipy
+    - nitime
+    - xarray
+    - mne
+    - git+https://github.com/arokem/POT.git@pep518
+    - git+https://github.com/arokem/mtw.git@pep518
+    - imageio
+    - ipydatawidgets # dependency for one of plotly's jupyterlab extensions
+    - voila
+    - kaleido # plotly static image export: https://github.com/plotly/plotly.py#static-image-export
+    - nipype
+    - git+https://github.com/nipype/pydra.git@50051730c4bf894ce9ba4833f8c267b5993e0ce0
+    - pydra-ml
+    - git+https://github.com/ReproNim/neurodocker.git@e64f58cc2d93620e6537d9efb0104cc87a99e5ca
+    - pyld
+    - testkraken
+    - seaborn
+    - statsmodels
+    # -----------------------------------------------------------------------
+
+    # Needed by the neurohackademy Helm chart
+    - nbgitpuller

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# ipyvolume depend on bqplot as of 27 July 2020
+# plotly instructions: https://github.com/plotly/plotly.py#jupyterlab-support-python-35
+#   - I think jupyterlab-datawidgets is a dependency as well through threejs or
+#     similar. This is a general mess =/
+jupyter labextension install --dev-build=False --minimize=True \
+    @jupyter-voila/jupyterlab-preview \
+    @jupyter-widgets/jupyterlab-manager \
+    bqplot \
+    ipyvolume \
+    jupyterlab-datawidgets \
+    jupyterlab-plotly \
+    plotlywidget \
+ && echo JupyterLab extensions installed.
+
+# Enable use of a /voila path like /lab and /tree
+jupyter serverextension enable --sys-prefix voila
