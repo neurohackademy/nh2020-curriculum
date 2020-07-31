@@ -67,6 +67,7 @@ dependencies:
     - testkraken
     - seaborn
     - statsmodels
+    - pytest-notebook  # Testing the notebooks in CI
     # -----------------------------------------------------------------------
 
     # Needed by the neurohackademy Helm chart
