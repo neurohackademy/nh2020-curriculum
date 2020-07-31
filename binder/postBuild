@@ -18,7 +18,7 @@ jupyter labextension install --dev-build=False --minimize=True \
 jupyter serverextension enable --sys-prefix voila
 
 git config --global user.name "Neuro Hacker"
-git config --global user.email neurohack@nosuchthing.com
+git config --global user.email hacker@neurohackademy.org
 
 mkdir data && \
  mkdir data/openneuro && \
