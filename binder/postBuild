@@ -16,3 +16,12 @@ jupyter labextension install --dev-build=False --minimize=True \
 
 # Enable use of a /voila path like /lab and /tree
 jupyter serverextension enable --sys-prefix voila
+
+
+mkdir data && \
+ mkdir data/openneuro && \
+ cd data/openneuro && \
+ datalad install ///openfmri/ds000114 && \
+ datalad get ds000114 &&
+ cd ds000114 && \
+ datalad get sub-01/ses-test/func/
