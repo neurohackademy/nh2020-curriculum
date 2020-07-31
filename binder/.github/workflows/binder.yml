@@ -1,7 +1,9 @@
 name: Build Notebook Container
+
 on: [pull_request]
 
-  build-image-without-pushing:
+jobs:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout PR
