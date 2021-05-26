@@ -131,7 +131,7 @@ call `import` statements in Python. When you type call `import geometry`,
 Python starts by looking for a file called `geometry.py` in your present working
 directory.
 
-That means that if you saved `geomtry.py` alongside your analysis script, you
+That means that if you saved `geometry.py` alongside your analysis script, you
 can now rewrite that as:
 
 ```
